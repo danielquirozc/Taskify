@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.19",
     "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "standard": "^17.1.0"
   },
