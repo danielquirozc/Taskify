@@ -12,7 +12,8 @@ export function useList () {
       name,
       description,
       status: 'to do',
-      createdAt: getTime()
+      createdAt: getTime(),
+      category
     }
     const newList = [...list]
     newList[index].tasks.push(newTask)

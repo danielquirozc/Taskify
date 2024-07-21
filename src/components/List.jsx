@@ -23,7 +23,7 @@ export const List = () => {
               {!category.tasks.length > 0
                 ? <h1 className='text-2xl font-semibold text-slate-500 text-center'>Empty</h1>
                 : category.tasks.map((task) => (
-                  <Task key={task.id} task={task} category={category.title} />
+                  <Task key={task.id} {...task} />
                 ))}
             </ul>
           </div>
