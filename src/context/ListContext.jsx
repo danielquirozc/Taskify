@@ -7,7 +7,7 @@ export const ListProvider = ({ children }) => {
 
   useEffect(() => {
     const localList = localStorage.getItem('list')
-    localList.length && setList(JSON.parse(localList))
+    localList && setList(JSON.parse(localList))
   }, [])
 
   return (
